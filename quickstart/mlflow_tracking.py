@@ -20,3 +20,4 @@ if __name__ == "__main__":
             f.write("hello world!")
 
         mlflow.log_artifacts("outputs")
+        print('completed !')
